@@ -1,0 +1,7 @@
+.header {
+    background-color: #1B2944;
+    height: 654px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

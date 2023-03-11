@@ -1,0 +1,6 @@
+.header__hero-group {
+    max-width: 464px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

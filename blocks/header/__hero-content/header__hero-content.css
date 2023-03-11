@@ -1,0 +1,9 @@
+.header__hero-content {
+    width: 944px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 88px;
+    margin: 0 auto;
+}

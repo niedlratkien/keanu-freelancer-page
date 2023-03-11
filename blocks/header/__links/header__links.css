@@ -1,0 +1,9 @@
+.header__links {
+    width: 944px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0 auto;
+}
