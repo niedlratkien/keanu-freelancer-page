@@ -1,0 +1,13 @@
+.features__blocks {
+    width: 944px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 16px;
+    row-gap: 72px;
+    padding: 48px 0 88px 0;
+    margin: 0 auto;
+}
