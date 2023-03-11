@@ -1,0 +1,11 @@
+.portfolio__card {
+    width: 304px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%);
+    background-color: #cecece;
+    border-radius: 6px;
+}

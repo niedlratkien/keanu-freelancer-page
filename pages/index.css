@@ -12,6 +12,7 @@
 
 /* Блок button */
 @import url('../blocks/button/button.css');
+@import url('../blocks/button/_portfolio/button_portfolio.css');
 
 
 /* Блок HEADER */
@@ -42,7 +43,14 @@
 @import url('../blocks/features/__block-text/features__block-text.css');
 
 /* Секция portfolio */
-@import url();
+@import url('../blocks/portfolio/portfolio.css');
+@import url('../blocks/portfolio/__title/portfolio__title.css');
+@import url('../blocks/portfolio/__cards/portfolio__cards.css');
+@import url('../blocks/portfolio/__card/portfolio__card.css');
+@import url('../blocks/portfolio/__card/_number/portfolio__card_number_1.css');
+@import url('../blocks/portfolio/__card/_number/portfolio__card_number_2.css');
+@import url('../blocks/portfolio/__card/_number/portfolio__card_number_3.css');
+@import url('../blocks/portfolio/__card-title/portfolio__card-title.css');
 
 /* Секция gallery */
 @import url();

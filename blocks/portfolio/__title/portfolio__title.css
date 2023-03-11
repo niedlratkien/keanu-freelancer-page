@@ -1,0 +1,14 @@
+.portfolio__title {
+    width: 100%;
+    max-width: 944px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #ffffff;
+    padding-top: 88px;
+    margin: 0 auto;
+}
