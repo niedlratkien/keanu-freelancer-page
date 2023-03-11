@@ -13,6 +13,7 @@
 /* Блок button */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_portfolio/button_portfolio.css');
+@import url('../blocks/button/_place/button_place_contacts.css');
 
 
 /* Блок HEADER */
@@ -58,4 +59,19 @@
 @import url('../blocks/gallery/__card/gallery__card.css');
 
 /* Блок FOOTER */
-@import url('../blocks/footer/footer.css');
+@import url('../blocks/contacts/contacts.css');
+@import url('../blocks/contacts/__title/contacts__title.css');
+@import url('../blocks/contacts/__block/contacts__block.css');
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__subtitle/form__subtitle.css');
+@import url('../blocks/form/__input/form__input.css');
+
+@import url('../blocks/contacts/__text/contacts__text.css');
+@import url('../blocks/contacts/__data/contacts__data.css');
+@import url('../blocks/contacts/__phone/contacts__phone.css');
+@import url('../blocks/contacts/__email/contacts__email.css');
+@import url('../blocks/contacts/__social/contacts__social.css');
+@import url('../blocks/contacts/__social-links/contacts__social-links.css');
+@import url('../blocks/contacts/__social-link/contacts__social-link.css');
+@import url('../blocks/contacts/__text-link/contacts__text-link.css');

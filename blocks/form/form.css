@@ -1,0 +1,12 @@
+.form {
+    width: 464px;
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    box-shadow: -5px 5px 0px #ffc41d;
+    border-radius: 5px;
+}
