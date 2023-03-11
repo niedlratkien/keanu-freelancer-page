@@ -53,7 +53,9 @@
 @import url('../blocks/portfolio/__card-title/portfolio__card-title.css');
 
 /* Секция gallery */
-@import url();
+@import url('../blocks/gallery/gallery.css');
+@import url('../blocks/gallery/__photo/gallery__photo.css');
+@import url('../blocks/gallery/__card/gallery__card.css');
 
 /* Блок FOOTER */
 @import url('../blocks/footer/footer.css');
