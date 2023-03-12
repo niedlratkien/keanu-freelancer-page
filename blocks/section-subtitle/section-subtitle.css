@@ -1,12 +1,10 @@
-.portfolio__card-title {
-    max-width: 170px;
-    width: 100%;
+.section-subtitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 28px;
     color: #ffffff;
-    padding-bottom: 16px;
+    padding-top: 20px;
     margin: 0;
 }

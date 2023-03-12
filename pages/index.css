@@ -1,4 +1,4 @@
-/* Шрифт Roboto Regular 400 и Bold 700 */
+/* Шрифт Roboto 400 и 700 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* Normalize.css v8.0.1 */
@@ -9,43 +9,58 @@
 
 /* Блок logo */
 @import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/_place/logo_place_header.css');
 
 /* Блок button */
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/_portfolio/button_portfolio.css');
+@import url('../blocks/button/_place/button_place_header.css');
+@import url('../blocks/button/_place/button_place_portfolio.css');
 @import url('../blocks/button/_place/button_place_contacts.css');
 
+/* Блок socials */
+@import url('../blocks/socials/socials.css');
+@import url('../blocks/socials/_place/socials_place_header.css');
+@import url('../blocks/socials/__link/socials__link.css');
 
-/* Блок HEADER */
+/* Блок section-title */
+@import url('../blocks/section-title/section-title.css');
+
+/* Блок section-subtitle */
+@import url('../blocks/section-subtitle/section-subtitle.css');
+@import url('../blocks/section-subtitle/_place/section-subtitle_place_contacts.css');
+
+/* Блок link */
+@import url('../blocks/link/link.css');
+@import url('../blocks/link/_place/link_place_block.css');
+
+/* Блок form */
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__subtitle/form__subtitle.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__input/_type/form__input_type_user.css');
+@import url('../blocks/form/__input/_type/form__input_type_phone.css');
+
+/* HEADER */
 @import url('../blocks/header/header.css');
-
 @import url('../blocks/header/__links/header__links.css');
-@import url('../blocks/header/__socials/header__socials.css');
-@import url('../blocks/header/__link/header__link.css');
-
-@import url('../blocks/header/__hero-content/header__hero-content.css');
-@import url('../blocks/header/__hero-text/header__hero-text.css');
-@import url('../blocks/header/__hero-group/header__hero-group.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/header/__group/header__group.css');
 @import url('../blocks/header/__title/header__title.css');
 @import url('../blocks/header/__subtitle/header__subtitle.css');
 @import url('../blocks/header/__text/header__text.css');
-@import url('../blocks/header/__hero-avatar/header__hero-avatar.css');
+@import url('../blocks/header/__avatar/header__avatar.css');
 
-
-/* Блок CONTENT */
+/* CONTENT */
 @import url('../blocks/content/content.css');
 
 /* Секция features */
 @import url('../blocks/features/features.css');
-@import url('../blocks/features/__title/features__title.css');
 @import url('../blocks/features/__blocks/features__blocks.css');
 @import url('../blocks/features/__block/features__block.css');
-@import url('../blocks/features/__block-title/features__block-title.css');
 @import url('../blocks/features/__block-text/features__block-text.css');
 
 /* Секция portfolio */
 @import url('../blocks/portfolio/portfolio.css');
-@import url('../blocks/portfolio/__title/portfolio__title.css');
 @import url('../blocks/portfolio/__cards/portfolio__cards.css');
 @import url('../blocks/portfolio/__card/portfolio__card.css');
 @import url('../blocks/portfolio/__card/_number/portfolio__card_number_1.css');
@@ -58,20 +73,10 @@
 @import url('../blocks/gallery/__photo/gallery__photo.css');
 @import url('../blocks/gallery/__card/gallery__card.css');
 
-/* Блок FOOTER */
+/* CONTACTS */
 @import url('../blocks/contacts/contacts.css');
-@import url('../blocks/contacts/__title/contacts__title.css');
 @import url('../blocks/contacts/__block/contacts__block.css');
-
-@import url('../blocks/form/form.css');
-@import url('../blocks/form/__subtitle/form__subtitle.css');
-@import url('../blocks/form/__input/form__input.css');
-
 @import url('../blocks/contacts/__text/contacts__text.css');
 @import url('../blocks/contacts/__data/contacts__data.css');
-@import url('../blocks/contacts/__phone/contacts__phone.css');
-@import url('../blocks/contacts/__email/contacts__email.css');
 @import url('../blocks/contacts/__social/contacts__social.css');
 @import url('../blocks/contacts/__social-links/contacts__social-links.css');
-@import url('../blocks/contacts/__social-link/contacts__social-link.css');
-@import url('../blocks/contacts/__text-link/contacts__text-link.css');

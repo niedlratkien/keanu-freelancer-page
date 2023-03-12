@@ -1,3 +1,7 @@
 .portfolio__card_number_2 {
-    background: url('/../../images/portfolio/portfolio2.jpg');
+    background: 
+        linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213e60 99.85%),
+        url('../../../../images/portfolio/portfolio2.jpg') no-repeat;
+    background-size: cover;
+    background-position: top left -80px;
 }

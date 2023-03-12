@@ -1,9 +1,8 @@
-.contacts__data {
+.contacts__social-links {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    column-gap: 96px;
+    column-gap: 54px;
     padding: 0;
     margin: 0;
 }

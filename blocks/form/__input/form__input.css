@@ -6,17 +6,3 @@
     box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
     border-radius: 5px;
 }
-
-.form__input_user {
-    background-image: url('/images/ico/user-icon.svg');
-    background-repeat: no-repeat;
-    background-size: 16px;
-    background-position: left 10px center;
-}
-
-.form__input_phone {
-    background-image: url('/images/ico/phone-icon.svg');
-    background-repeat: no-repeat;
-    background-size: 16px;
-    background-position: left 10px center;
-}

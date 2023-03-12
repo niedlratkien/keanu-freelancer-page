@@ -1,0 +1,6 @@
+.form__input_type_user {
+    background-image: url('../../../../images/ico/user-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left 10px center;
+}
