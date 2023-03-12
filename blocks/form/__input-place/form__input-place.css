@@ -1,0 +1,17 @@
+.form__input-place {
+    width: 303px;
+    border: none;
+    background-color: #f8f8f8;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+    padding: 20px 0 19px 0;
+}
+
+.form__input-place:focus {
+    outline: none;
+    padding: 0;
+}

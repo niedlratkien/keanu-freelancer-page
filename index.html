@@ -24,10 +24,10 @@
         <div class="header__links">
             <img src="./images/ico/logo.svg" alt="Логотип страницы" class="logo logo_place_header">
             <ul class="socials socials_place_header">
-                <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/github.svg" alt="Ссылка на Гитхаб"></a></li>
-                <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/twitter.svg" alt="Ссылка на Твиттер"></a></li>
-                <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/instagram.svg" alt="Ссылка на Инстаграм"></a></li>
-                <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/facebook.svg" alt="Ссылка на Фейсбук"></a></li>
+                <li><a href="#" target="_blank" class="socials__link "><img src="./images/ico/github.svg" alt="Ссылка на Гитхаб"></a></li>
+                <li><a href="#" class="socials__link-no"><img src="./images/ico/twitter.svg" alt="Ссылка на Твиттер"></a></li>
+                <li><a href="#" class="socials__link-no"><img src="./images/ico/instagram.svg" alt="Ссылка на Инстаграм"></a></li>
+                <li><a href="#" class="socials__link-no"><img src="./images/ico/facebook.svg" alt="Ссылка на Фейсбук"></a></li>
             </ul>
         </div>
 
@@ -152,38 +152,48 @@
             Свяжитесь со мной
         </h2>
         <div class="contacts__block">
-            <form action="" method="" class="form">
+            <form class="form">
                 <p class="form__subtitle">Можете просто оставить заявку, я позвоню вам сегодня</p>
-                <p>
-                    <label for="name"></label>
-                    <input class="form__input form__input_type_user" type="text" name="name" id="name" required>
+                <p class="form__input">
+                    <img class="form__input-image" src="./images/ico/user-icon.svg" alt="Иконка пользователя">
+                    <label for="userName">
+                        <input class="form__input-place" type="text" id="userName" placeholder="Ваше имя">
+                    </label>
                 </p>
-                <p>
-                    <label for="phone"></label>
-                    <input type="tel" name="phone" id="phone" required class="form__input form__input_type_phone">
+                <p class="form__input">
+                    <img class="form__input-image" src="./images/ico/phone-icon.svg" alt="Иконка телефона">
+                    <label for="userPhone">
+                        <input  class="form__input-place" type="tel" name="phone" id="userPhone" placeholder="Ваш телефон">
+                    </label>
                 </p>
                 <button type="submit" id="submit" class="button button_place_contacts">Бесплатная консультация</button>
             </form>
             <div class="contacts__text">
                 <ul class="contacts__data">
-                    <li><h3 class="section-subtitle section-subtitle_place_contacts">Телефон</h3><a href="#" class="link">+7 999 123 45 67</a></li>
-                    <li><h3 class="section-subtitle section-subtitle_place_contacts">Почта</h3><a href="#" class="link">ivanov@mail.ru</a></li>
+                    <li>
+                        <h3 class="section-subtitle section-subtitle_place_contacts">Телефон</h3>
+                        <a href="##" class="link">+7 999 123 45 67</a>
+                    </li>
+                    <li>
+                        <h3 class="section-subtitle section-subtitle_place_contacts">Почта</h3>
+                        <a href="##" class="link">ivanov@mail.ru</a>
+                    </li>
                 </ul>
                 <div class="contacts__social">
                     <h3 class="section-subtitle section-subtitle_place_contacts">Соцсети</h3>
                     <ul class="contacts__social-links">
-                        <li><a href="#" class="link">t.me/ivanov</a></li>
-                        <li><a href="#" class="link">vk.me/ivanov</a></li>
-                        <li><a href="#" class="link">fb.me/ivanov</a></li>
+                        <li><a href="##" class="link">t.me/ivanov</a></li>
+                        <li><a href="##" class="link link_no">vk.me/ivanov</a></li>
+                        <li><a href="##" class="link link_no">fb.me/ivanov</a></li>
                     </ul>
                 </div>
                 <ul class="socials">
-                    <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/github.svg" alt="Ссылка на Гитхаб"></a></li>
-                    <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/twitter.svg" alt="Ссылка на Твиттер"></a></li>
-                    <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/instagram.svg" alt="Ссылка на Инстаграм"></a></li>
-                    <li><a href="#" target="_blank" class="socials__link"><img src="./images/ico/facebook.svg" alt="Ссылка на Фейсбук"></a></li>
+                    <li><a href="##" target="_blank" class="socials__link"><img src="./images/ico/github.svg" alt="Ссылка на Гитхаб"></a></li>
+                    <li><a href="##" class="socials__link-no"><img src="./images/ico/twitter.svg" alt="Ссылка на Твиттер"></a></li>
+                    <li><a href="##" class="socials__link-no"><img src="./images/ico/instagram.svg" alt="Ссылка на Инстаграм"></a></li>
+                    <li><a href="##" class="socials__link-no"><img src="./images/ico/facebook.svg" alt="Ссылка на Фейсбук"></a></li>
                 </ul>
-                <a href="#" class="link link_place_block">Политика конфиденциальности</a>
+                <a href="##" class="link link_place_block">Политика конфиденциальности</a>
             </div>
         </div>
     </footer>

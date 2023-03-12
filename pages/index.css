@@ -21,6 +21,7 @@
 @import url('../blocks/socials/socials.css');
 @import url('../blocks/socials/_place/socials_place_header.css');
 @import url('../blocks/socials/__link/socials__link.css');
+@import url('../blocks/socials/__link-no/socials__link-no.css');
 
 /* Блок section-title */
 @import url('../blocks/section-title/section-title.css');
@@ -31,14 +32,15 @@
 
 /* Блок link */
 @import url('../blocks/link/link.css');
+@import url('../blocks/link/_no/link_no.css');
 @import url('../blocks/link/_place/link_place_block.css');
 
 /* Блок form */
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__subtitle/form__subtitle.css');
 @import url('../blocks/form/__input/form__input.css');
-@import url('../blocks/form/__input/_type/form__input_type_user.css');
-@import url('../blocks/form/__input/_type/form__input_type_phone.css');
+@import url('../blocks/form/__input-place/form__input-place.css');
+@import url('../blocks/form/__input-image/form__input-image.css');
 
 /* HEADER */
 @import url('../blocks/header/header.css');

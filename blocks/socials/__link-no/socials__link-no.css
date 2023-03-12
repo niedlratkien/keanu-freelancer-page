@@ -1,0 +1,6 @@
+.socials__link-no {}
+
+.socials__link-no:hover {
+    opacity: .0;
+    transition: .5s;
+}

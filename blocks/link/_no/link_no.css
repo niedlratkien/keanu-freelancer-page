@@ -1,0 +1,6 @@
+.link_no {}
+
+.link_no:hover {
+    opacity: .0;
+    transition: .5s;
+}

@@ -3,3 +3,15 @@
     height: 66px;
     margin: 0 auto 40px;
 }
+
+.button_place_contacts:hover {
+    box-shadow: 0px 2px 0px #B68500;;
+    transform: translateY(2px);
+}
+
+.button_place_contacts:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 6px #B68500;;
+    transform: translateY(2px);
+}
